@@ -96,7 +96,7 @@ function Navigation() {
             </li>
             <li className="menu-item has-child">
               <a href="#" className="menu-link">
-                Chụp ảnh
+                Dịch vụ
                 <i
                   className="fal fa-angle-down menu-arrow"
                   style={{ marginLeft: "2px" }}
@@ -104,17 +104,17 @@ function Navigation() {
               </a>
               <ul className="menu-child ">
                 <li className="menu-child-item">
-                  <Link to="/aldsf" className="menu-child-link">
+                  <Link to="/phong-su-cuoi" className="menu-child-link">
                     Phóng sự cưới
                   </Link>
                 </li>
                 <li className="menu-child-item">
-                  <Link to="/album-phong-su-cuoi" className="menu-child-link">
+                  <Link to="/su-kien" className="menu-child-link">
                     Sự kiện
                   </Link>
                 </li>
                 <li className="menu-child-item">
-                  <a href="#" className="menu-child-link">
+                  <a href="/concept" className="menu-child-link">
                     Concept
                   </a>
                 </li>
@@ -122,7 +122,7 @@ function Navigation() {
             </li>
             <li className="menu-item has-child">
               <a href="#" className="menu-link">
-                Quay phim
+               Album
                 <i
                   className="fal fa-angle-down menu-arrow"
                   style={{ marginLeft: "2px" }}

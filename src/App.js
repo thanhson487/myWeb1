@@ -5,9 +5,11 @@ import "./App.css";
 import Footer from "./common/Footer";
 import Navigation from "./common/Navigation";
 import AboutScreen from "./Screen/AboutScreen";
+import ConceptScreen from "./Screen/ConceptScreen";
 import DetailAlbumScreen from "./Screen/DetailAlbumScreen";
+import EventScreen from "./Screen/EventScreen";
 import HomeScreen from "./Screen/HomeScreen";
-import ListAlbumScreen from "./Screen/ListAlbumScreen";
+import WeddingPage from "./Screen/WeddingPage";
 function App() {
   return (
     <Router>
@@ -15,7 +17,9 @@ function App() {
         <Navigation />
         <Route path="/" exact component={HomeScreen} />
         <Route path="/about" component={AboutScreen} />
-        <Route path="/album-phong-su-cuoi" component={ListAlbumScreen} />
+        <Route path="/phong-su-cuoi" component={WeddingPage} />
+        <Route path = "/su-kien" component = {EventScreen} />
+        <Route path = "/concept" component = {ConceptScreen} />
         <Route path="/album-detail" component={DetailAlbumScreen} />
         <Footer />
       </div>

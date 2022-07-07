@@ -1,11 +1,11 @@
 import React from "react";
 import { Wrapper, WrapperContent, Content, ContentDr } from "./styled";
-function Banner(props) {
+function Banner({ title, content }) {
   return (
     <Wrapper>
       <WrapperContent>
-        <Content>Wedding</Content>
-        <ContentDr>WE PLAY WITH LIGHT</ContentDr>
+        <Content>{title}</Content>
+        <ContentDr>{content}</ContentDr>
       </WrapperContent>
     </Wrapper>
   );
